@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    background-color: #dfdfdf;
+}
+
+div#frame {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0.25px 0 1px 0;
+    margin: auto;
+}
+
+div.textField {
+    height: 40%;
+}
+
+/* 표준 */
+p.textStandard {
+    font-size: 3rem;
+    padding: 2px 0 0 12px;
+}
+
+/* 입력한 식 */
+p.beforeNum {
+    text-align: right;
+    font-size: 2rem;
+}
+
+/* 방금 입력한 값 */
+p.outputNum {
+    text-align: right;
+    font-size: 5rem;
+}
+
+div.numpad {
+    height: 60%;
+}
+
+table.numtb {
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    width: 25%;
+}
+
+td.numtd {
+    text-align: center;
+    font-size: 3rem;
+}
+
+td.num {
+    font-weight: bold;
+}
+
+td.num:not(.char) {
+    background-color: #fcfcfc;
+}
+
+td.char {
+    background-color: #f0f0f0;
+}
+
+td.numtd:hover {
+    background-color: #a7a7a7;
+    transition: 0.3s;
+}
